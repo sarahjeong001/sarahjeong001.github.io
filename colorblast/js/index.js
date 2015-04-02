@@ -217,7 +217,7 @@ var Player = function(){
 
 Player.prototype.die = function(){
 	if(Game.life < Game.maxLives){
-		Game.invincibleMode(2000);  
+		Game.invincibleMode(5000);  
  		Game.life++;
 	} else {
 		Game.pause();
