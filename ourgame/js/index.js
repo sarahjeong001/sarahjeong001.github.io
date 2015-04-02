@@ -562,5 +562,6 @@ switch (choice){
     }
     
 }
+confirm("You are done! Great job! To choose another level to play, reload this page :)");
 
 
