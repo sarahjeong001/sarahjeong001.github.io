@@ -38,7 +38,7 @@ var Game = {
 			new Enemy();
 			this.enemiesAlive++;
 		}
-		this.invincibleMode(2000);
+		this.invincibleMode(5000);
 
 		this.loop();
 	},
